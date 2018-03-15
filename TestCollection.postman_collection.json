@@ -1,0 +1,44 @@
+{
+	"id": "5d75b0bf-5966-aa3d-4b4f-6d5ec413d075",
+	"name": "TestCollection",
+	"description": "",
+	"order": [
+		"902901b8-da6f-6904-083f-0192c4f6aa58"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1521104261996,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "902901b8-da6f-6904-083f-0192c4f6aa58",
+			"headers": "Authorization: Bearer {{actoken}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{actoken}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://gateway.api.cloud.wso2.com/api/am/publisher/apis",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521104300710,
+			"name": "Get APIs copy",
+			"description": "",
+			"collectionId": "5d75b0bf-5966-aa3d-4b4f-6d5ec413d075",
+			"responses": []
+		}
+	]
+}
