@@ -116,7 +116,7 @@
 			"data": [
 				{
 					"key": "apiDefinition",
-					"value": "",
+					"value": "swagger.json",
 					"type": "file",
 					"enabled": true
 				}
