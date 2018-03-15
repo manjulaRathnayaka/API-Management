@@ -1,3 +1,3 @@
 #!/bin/bash
 
-printenv
+curl -v https://gateway.api.cloud.wso2.com/api/am/publisher/apis -H "Authorization: Bearer $ACCESS_TOKEN"
