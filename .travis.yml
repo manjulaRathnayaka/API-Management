@@ -1,17 +1,10 @@
-matrix:
-  include:
     - language: java 
       jdk:
        - oraclejdk8
+      node_js:
+      - "8.2.1"
+      install: 
+      - "npm install newman"
       after_success:
        - echo "JAVA Runtime" 
        - java -version 
-
-    - language: node_js
-      node_js:
-      - "8.2.1"
-      - stage: Deploy to WSO2 API Cloud
-      install:
-      - npm install newman
-      script:
-      - echo "Node Runtime"
