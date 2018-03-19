@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "8.2.1"
+jdk:
+  - oraclejdk8
 jobs:
   include:
     - stage: Deploy to WSO2 API Cloud 
