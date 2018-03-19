@@ -16,7 +16,7 @@
 
 package org.example.service;
 
-import org.wso2.msf4j.MicroservicesRunner;
+#import org.wso2.msf4j.MicroservicesRunner;
 
 /**
  * Application entry point.
