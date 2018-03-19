@@ -1,4 +1,7 @@
 #!/bin/bash
 
 cd Hello-Service
-mvn install
+if mvn install | grep -q 'BUILD SUCCESS'; then
+  exit 0
+fi
+exit 1
