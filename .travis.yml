@@ -8,4 +8,4 @@ jobs:
     - stage: Deploy to WSO2 API Cloud 
       script:
       - bash test.sh || travis_terminate 1;
-      - bash test2.sh
+      - bash test2.sh || travis_terminate 1;
